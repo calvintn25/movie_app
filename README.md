@@ -1,20 +1,16 @@
-<<<<<<< HEAD
-# movie_app
-=======
-# movie_app
+# Calvin Tan - 2331206 - 6PSIB UTS Lab Pengembangan Mobile
 
-A new Flutter project.
+## MovieNest
 
-## Getting Started
+MovieNest is a Flutter application designed for browsing and searching movies, featuring modern functionalities and a clean architecture. The application uses Flutter’s built-in state management solution, Provider, to manage the app’s state in a centralized, organized, and maintainable way. By utilizing the Provider state management approach, the code structure becomes more organized, maintainable, centralized, and easy to scale for future development. Features such as search, filtering, shimmer loading, local caching, and reusable widgets demonstrate that this application is not merely a prototype, but a user-centric, well-architected, and scalable solution.
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
->>>>>>> f54a2a4 (first Commit)
+## Folder Structure
+```text
+lib/
+├── main.dart                 → App root, ProviderScope, theme
+├── models/                   → Data model (Movie)
+├── services/                 → API integration & cache handling
+├── providers/                → State management
+├── views/                    → Main View of App
+└── widgets/                  → Reusable UI components
+```
